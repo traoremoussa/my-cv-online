@@ -1,4 +1,4 @@
-[visit-my-cv] (https://traoremoussa.github.io/my-cv-online/ 'ici')
+[visit-my-cv](https://traoremoussa.github.io/my-cv-online/ "ici")
 
 https://parceljs.org/getting-started/webapp/
 https://www.digitalocean.com/community/tutorials/how-to-bundle-a-web-app-with-parcel-js
