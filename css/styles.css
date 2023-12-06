@@ -224,6 +224,11 @@ p {
   font-size: 16px;
   margin: 0;
 }
+.about .box .text i {
+  color: #3590d2;
+  font-weight: bold;
+}
+/**---    Skills---*/
 .about.skills .box {
   position: relative;
   width: 100%;
@@ -251,7 +256,7 @@ p {
   height: 100%;
   background: #3590d2;
 }
-/**------*/
+/**---    bouton chang e couleur---*/
 .control {
   position: fixed;
   right: -3.5rem;
@@ -323,4 +328,40 @@ p {
 
 .control .colors span:nth-child(4) {
   background-color: var(--cyan);
+}
+/*****----------------RESPONSIVE*****/
+@media only screen and (max-width: 767px) {
+  .container .contentBox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .container .top {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container .top .profileText {
+    position: relative;
+    padding: 20px;
+  }
+  .container .top .profileText h3 {
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+
+    color: #333;
+  }
+  .container .top .profileText h3 span {
+    position: relative;
+    font-size: 0.5em;
+    font-weight: 300;
+    top: -10px;
+  }
+  /* **  Experience*/
+  .about .box {
+    display: flex;
+    flex-direction: column;
+  }
 }

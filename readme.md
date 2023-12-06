@@ -1,7 +1,9 @@
 [visit-my-cv](https://traoremoussa.github.io/my-cv-online/ "ici")
+[pdf-gen](https://ekoopmans.github.io/html2pdf.js/)
+[Bedimcode](https://www.youtube.com/watch?v=oYjseP_Qhv4&ab_channel=Bedimcode)
 
-https://parceljs.org/getting-started/webapp/
-https://www.digitalocean.com/community/tutorials/how-to-bundle-a-web-app-with-parcel-js
+[parceljs](https://parceljs.org/getting-started/webapp/)
+[parceljs-tuto](https://www.digitalocean.com/community/tutorials/how-to-bundle-a-web-app-with-parcel-js)
 
 # 1
 
@@ -30,3 +32,5 @@ styles
 app
 
 https://ionic.io/ionicons/usage
+
+- javascript dom traversal

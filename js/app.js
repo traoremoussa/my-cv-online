@@ -1,3 +1,5 @@
+"use strict";
+
 // Colors
 
 const widget = document.querySelector(".widget");
@@ -22,3 +24,6 @@ colors.forEach((color) => {
 window.addEventListener("scroll", () => {
     control.classList.remove("open");
 });
+
+//--- read data
+//GEN PDF
