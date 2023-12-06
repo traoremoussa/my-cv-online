@@ -365,3 +365,13 @@ p {
     flex-direction: column;
   }
 }
+.about .box .text .id-ul li {
+  display: list-item;
+  list-style-type: square !important;
+  background-color: #ce00ff;
+  margin: 0px;
+}
+
+.about .box .text ul li::before {
+  content: "";
+}

@@ -56,12 +56,21 @@ function alimentexperience(el) {
           </div>
   <div class="text">
     <h4>${el.title}</h4>
-    <p>
-     ${el.missions}
-    </p>
+    <ul class="id-ul">
+     ${mission(el.missions)}
+    </ul>
     <i>technos:</i>
-                <span> ${el.technologies}</span>
+                <span style=""> ${el.technologies}</span>
   </div>`
     return div;
 }
 
+function mission(ms) {
+    var ret = "";
+    ms.forEach((e) => {
+        console.info(e);
+        ret += `<li>${e}</li>`
+    }
+    );
+    return ret;
+}
