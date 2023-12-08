@@ -60,7 +60,7 @@ function alimentexperience(el) {
      ${mission(el.missions)}
     </ul>
     <i>technos:</i>
-                <span style=""> ${el.technologies}</span>
+                <span> ${el.technologies}</span>
   </div>`
     return div;
 }
